@@ -1,0 +1,3 @@
+#!/bin/sh
+set -x
+exec ./configure --prefix=/usr/local --without-npm --shared-brotli --shared-cares --shared-libuv --shared-nghttp2 --shared-zlib --with-dtrace --with-intl=system-icu
